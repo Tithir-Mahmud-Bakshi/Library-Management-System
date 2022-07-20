@@ -1,0 +1,93 @@
+
+
+
+INSERT INTO `admin` (`Admin_ID`, `first_name`, `last_name`, `Username`, `Password`, `email`, `phone`) 
+VALUES ('2015-2-15-153', 'Md. Tarikul', 'Islam', 'tarikul', 'tarikul1234', 'tarikul@ewubd.edu', '+8801912436712'); 
+
+
+INSERT INTO `admin` (`Admin_ID`, `first_name`, `last_name`, `Username`, `Password`, `email`, `phone`) 
+VALUES ('2015-2-15-154', 'Debasish', 'Ghosh', 'debasish', 'debasish1234', 'debasish@ewubd.edu', '+8801912436713');
+
+INSERT INTO `admin` (`Admin_ID`, `first_name`, `last_name`, `Username`, `Password`, `email`, `phone`) 
+VALUES ('2015-2-70-150', 'Santanu', 'Sarkar', 'sarkar', 'sarkar1234', 'santanu@ewubd.edu', '+8801621778341');
+
+
+
+
+
+INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('1', 'Introduction to Electrical Science', 'Adrian Waygood ', '2nd', 'Available', '3', 'Science');
+
+INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('2', 'Introduction to Computer Science', ' G.Michael Schneider', '1st', 'Available', '5', 'Science');
+
+INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('3', 'Introduction to finance', ' Ronald W. Melicher', '1st', 'Available', '4', 'Bussiness');
+
+INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('4', 'Politico-Military Strategy of the Bangladesh Liberation War, 1971', 'Guru Saday Batabyal', '1st', 'Available', '3', 'History');
+
+INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('5', 'Introduction to Macroeconomics', 'Alan C. Stockman', '2nd', 'Available', '8', 'Economic');
+
+
+
+
+
+INSERT INTO `issue_book` (`username`, `book_id`, `approve`, `issue_date`, `return_date`) 
+VALUES ('2016-1-60-095', '3', '', '', '');
+
+INSERT INTO `issue_book` (`username`, `book_id`, `approve`, `issue_date`, `return_date`) 
+VALUES ('2017-2-60-163', '2', '', '', '');
+
+INSERT INTO `issue_book` (`username`, `book_id`, `approve`, `issue_date`, `return_date`)
+VALUES ('2', '4', 'APPROVED', '2021-12-28', '2022-01-08');
+
+update issue_book set approve="Not approved",issue_date="18-12-2021", return_date="28-12-2021"
+where username="2016-1-60-095" and book_id=3;
+
+update issue_book set approve="Approved",issue_date="18-12-2021", return_date="28-12-2021"
+where username="2017-2-60-163" and book_id=2;
+
+
+
+
+
+INSERT INTO `report` (`Admin_username`, `borrower_username`, `book_id`, `return_status`, `returns_date`) VALUES
+('2015-2-70-150', '2017-2-60-160', 3, 'EXPIRED', '2021-12-28'),
+('2015-2-15-153','2017-2-60-163', '2', 'RETURNED', '2021-11-18'),
+('2015-2-15-154','2016-1-60-095', '3', 'RETURNED', '2021-12-28');
+
+
+
+
+
+
+INSERT INTO `student` (`Std_ID_no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) 
+VALUES ('2017-2-60-163', 'Snehashis Ghosh', 'Pial', '2017-2-60-163', 'pial1234', '+880-1621619047', 'pialghosh32@gmail.com');
+
+INSERT INTO `student` (`Std_ID_no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) 
+VALUES ('2016-1-60-095', 'Tithir Mahmud', 'Bakshi', '2016-1-60-095', 'tithir1234', '+880-1621619048', '2016-1-60-095@std.ewubd.edu');
+
+INSERT INTO `student` (`Std_ID_no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`)
+ VALUES ('2018-1-60-147', 'Afrina', 'Mustofa', '2018-1-60-147', 'afrina1234', '+880-1621619049', '2018-1-60-147@std.ewubd.edu');
+
+INSERT INTO `student` (`Std_ID_no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) 
+VALUES ('2017-2-60-160', 'Jashedul Islam', 'Jusef', '2017-2-60-160', 'jashedul1234', '+880-1621619049', '2017-2-60-160@std.ewubd.edu');
+
+INSERT INTO `student` (`Std_ID_no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`)
+ VALUES ('2016-2-60-095', 'Hamza Mahmud', 'Takir', '2016-2-60-095', 'tithir1234', '+880-1621619052', '2016-2-60-095@std.ewubd.edu');
+
+
+
+INSERT INTO `teacher` (`Teach_id`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) VALUES
+('1', 'Wasif', 'Reza', 'Wasifreza', 'wakidf1234', '+880166747642', 'wasifreza@ewubd.edu'),
+('2', 'Kamrul', 'Reza', 'Wasilreza', 'wasilf1234', '+880166747642', 'wasifreza@ewubd.edu'),
+('3', 'Samim', 'Ripon', 'Samimripon', 'Shamimripon1234', '+880166747643', 'shamimripon@ewubd.edu'),
+('4', 'Rezwanul', 'Haque', 'Rezwanhaque', 'rezwanhaquef1234', '+880166747648', 'rezwanhaque@ewubd.edu'),
+('5', 'Nawab', 'Yousuf', 'nawabyousuf', 'nawabyousuf1234', '+880166747646', 'nawabyousuf@ewubd.edu');
+
+
+
+
+

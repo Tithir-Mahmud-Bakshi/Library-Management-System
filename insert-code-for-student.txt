@@ -1,0 +1,11 @@
+1.INSERT INTO `student` (`Std_ID no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) 
+VALUES ('2017-2-60-163', 'Snehashis Ghosh', 'Pial', '2017-2-60-163', 'pial1234', '+880-1621619047', 'pialghosh32@gmail.com');
+
+2.INSERT INTO `student` (`Std_ID no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) 
+VALUES ('2016-1-60-095', 'Tithir Mahmud', 'Bakshi', '2016-1-60-095', 'tithir1234', '+880-1621619048', '2016-1-60-095@std.ewubd.edu');
+
+3.INSERT INTO `student` (`Std_ID no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) VALUES ('2018-1-60-147', 'Afrina', 'Mustofa', '2018-1-60-147', 'afrina1234', '+880-1621619049', '2018-1-60-147@std.ewubd.edu');
+
+4.INSERT INTO `student` (`Std_ID no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) VALUES ('2017-2-60-160', 'Jashedul Islam', 'Jusef', '2017-2-60-160', 'jashedul1234', '+880-1621619049', '2017-2-60-160@std.ewubd.edu');
+
+5.INSERT INTO `student` (`Std_ID no`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) VALUES ('2016-2-60-095', 'Hamza Mahmud', 'Takir', '2016-2-60-095', 'tithir1234', '+880-1621619052', '2016-2-60-095@std.ewubd.edu');

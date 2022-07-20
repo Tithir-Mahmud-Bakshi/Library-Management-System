@@ -1,0 +1,14 @@
+1.INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('1', 'Introduction to Electrical Science', 'Adrian Waygood ', '2nd', 'Available', '3', 'Science');
+
+2.INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('2', 'Introduction to Computer Science', ' G.Michael Schneider', '1st', 'Available', '5', 'Science');
+
+3.INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('3', 'Introduction to finance', ' Ronald W. Melicher', '1st', 'Available', '4', 'Bussiness');
+
+4.INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('4', 'Politico-Military Strategy of the Bangladesh Liberation War, 1971', 'Guru Saday Batabyal', '1st', 'Available', '3', 'History');
+
+5.INSERT INTO `book` (`book_id`, `title`, `authors_name`, `edition`, `status`, `quantity`, `book_type`) 
+VALUES ('5', 'Introduction to Macroeconomics', 'Alan C. Stockman', '2nd', 'Available', '8', 'Economic');

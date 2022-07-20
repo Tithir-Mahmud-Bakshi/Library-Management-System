@@ -1,0 +1,6 @@
+INSERT INTO `teacher` (`Teach_id`, `first_name`, `last_name`, `Username`, `Password`, `Phone`, `Email`) VALUES
+('1', 'Wasif', 'Reza', 'Wasifreza', 'wasidf1234', '+880166747642', 'wasifreza@ewubd.edu'),
+('2', 'Wasif', 'Reza', 'Wasifreza', 'wasidf1234', '+880166747642', 'wasifreza@ewubd.edu'),
+('3', 'Samim', 'Ripon', 'Samimripon', 'Shamimripon1234', '+880166747643', 'shamimripon@ewubd.edu'),
+('4', 'Rezwanul', 'Haque', 'Rezwanhaque', 'rezwanhaquef1234', '+880166747648', 'rezwanhaque@ewubd.edu'),
+('5', 'Nawab', 'Yousuf', 'nawabyousuf', 'nawabyousuf1234', '+880166747646', 'nawabyousuf@ewubd.edu');

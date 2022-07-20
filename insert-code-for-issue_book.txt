@@ -1,0 +1,8 @@
+1.INSERT INTO `issue_book` (`username`, `book_id`, `approve`, `issue_date`, `return_date`) 
+VALUES ('2016-1-60-095', '3', '', '', '');
+
+2.INSERT INTO `issue_book` (`username`, `book_id`, `approve`, `issue_date`, `return_date`) 
+VALUES ('2017-2-60-163', '2', '', '', '');
+
+3.INSERT INTO `issue_book` (`username`, `book_id`, `approve`, `issue_date`, `return_date`)
+ VALUES ('2', '4', 'APPROVED', '2021-12-28', '2022-01-08');
